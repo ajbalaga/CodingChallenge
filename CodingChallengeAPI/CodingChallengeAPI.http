@@ -1,0 +1,24 @@
+@CodingChallengeAPI_HostAddress = http://localhost:5136
+
+###
+POST {{CodingChallengeAPI_HostAddress}}/codingchallenge/processFile
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="example.csv"
+Content-Type: text/csv
+
+[CSV file content goes here]
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+###
+
+POST {{CodingChallengeAPI_HostAddress}}/codingchallenge/processFile
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="example.json"
+Content-Type: application/json
+
+[JSON file content goes here]
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
