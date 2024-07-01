@@ -68,3 +68,39 @@ C:\Users\alliezza.balaga\OneDrive - ecpay.com.ph\Desktop\CodingChallengeAPI\Codi
 C:\Users\alliezza.balaga\OneDrive - ecpay.com.ph\Desktop\CodingChallengeAPI\CodingChallengeAPI\obj\Debug\net8.0\CodingChallengeAPI.pdb
 C:\Users\alliezza.balaga\OneDrive - ecpay.com.ph\Desktop\CodingChallengeAPI\CodingChallengeAPI\obj\Debug\net8.0\CodingChallengeAPI.genruntimeconfig.cache
 C:\Users\alliezza.balaga\OneDrive - ecpay.com.ph\Desktop\CodingChallengeAPI\CodingChallengeAPI\obj\Debug\net8.0\ref\CodingChallengeAPI.dll
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\bin\Debug\net8.0\CodingChallengeAPI.exe
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\bin\Debug\net8.0\CodingChallengeAPI.deps.json
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\bin\Debug\net8.0\CodingChallengeAPI.runtimeconfig.json
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\bin\Debug\net8.0\CodingChallengeAPI.dll
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\bin\Debug\net8.0\CodingChallengeAPI.pdb
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\bin\Debug\net8.0\CodingChallenge.core.dll
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\bin\Debug\net8.0\CodingChallenge.core.pdb
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\CodingChallengeAPI.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\CodingChallengeAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\CodingChallengeAPI.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\CodingChallengeAPI.AssemblyInfo.cs
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\CodingChallengeAPI.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\CodingChallengeAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\CodingChallengeAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\CodingChallengeAPI.sourcelink.json
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\staticwebassets\msbuild.CodingChallengeAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.CodingChallengeAPI.props
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CodingChallengeAPI.props
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CodingChallengeAPI.props
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\scopedcss\bundle\CodingChallengeAPI.styles.css
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\CodingCh.88412742.Up2Date
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\CodingChallengeAPI.dll
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\refint\CodingChallengeAPI.dll
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\CodingChallengeAPI.pdb
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\CodingChallengeAPI.genruntimeconfig.cache
+C:\Users\User\Desktop\CCAPI\CodingChallengeAPI\obj\Debug\net8.0\ref\CodingChallengeAPI.dll

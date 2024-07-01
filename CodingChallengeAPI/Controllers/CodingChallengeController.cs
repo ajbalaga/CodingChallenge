@@ -28,6 +28,7 @@ namespace CodingChallengeAPI.Controllers
         {
             if (files == null || files.Count == 0)
             {
+                _logger.LogInformation("No file uploaded.");
                 return BadRequest("No file uploaded.");
             }
 
@@ -57,6 +58,7 @@ namespace CodingChallengeAPI.Controllers
                     }
                     else
                     {
+
                         results.Add($"Unsupported file format for '{file.FileName}'. Only CSV or JSON files are allowed.");
                     }
 
@@ -64,11 +66,12 @@ namespace CodingChallengeAPI.Controllers
                 }
 
                 _logger.LogInformation("Total files processed so far: {FilesProcessedCount}", _filesProcessedCount);
+                _logger.LogInformation("Results: {results}", results);
                 return Ok(string.Join("\n", results));
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "An error occurred while processing files.");
+                _logger.LogInformation(ex, "An error occurred while processing files.");
                 return StatusCode(StatusCodes.Status500InternalServerError, $"Internal server error: {ex.Message}");
             }
         }

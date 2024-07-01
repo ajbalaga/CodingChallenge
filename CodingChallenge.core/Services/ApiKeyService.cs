@@ -14,9 +14,9 @@ namespace CodingChallenge.core.Services
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
 
-            _validApiKey = configuration["API_KEY"]; //if from user secrets
+            //_validApiKey = configuration["API_KEY"]; //if from user secrets
             //from docker
-            //Environment.GetEnvironmentVariable("API_KEY");
+            _validApiKey = Environment.GetEnvironmentVariable("API_KEY");
             ValidateApiKeyConfiguration();
         }
 
@@ -24,8 +24,8 @@ namespace CodingChallenge.core.Services
         {
             if (string.IsNullOrWhiteSpace(_validApiKey))
             {
-                const string errorMessage = "API key is not configured properly in user secrets.";
-                _logger.LogError(errorMessage);
+                const string errorMessage = "API key is not configured properly.";
+                _logger.LogInformation(errorMessage);
                 throw new InvalidOperationException(errorMessage);
             }
         }
@@ -34,7 +34,7 @@ namespace CodingChallenge.core.Services
         {
             if (string.IsNullOrWhiteSpace(apiKey))
             {
-                _logger.LogWarning("Validation attempt with an empty API key.");
+                _logger.LogInformation("Validation attempt with an empty API key.");
                 return false;
             }
 
@@ -46,7 +46,7 @@ namespace CodingChallenge.core.Services
             }
             else
             {
-                _logger.LogWarning("Invalid API key provided.");
+                _logger.LogInformation("Invalid API key provided.");
             }
 
             return isValid;
