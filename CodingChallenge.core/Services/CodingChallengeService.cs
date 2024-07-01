@@ -19,7 +19,7 @@ namespace CodingChallenge.core.Services
         {
             if (reader == null)
             {
-                _logger.LogError("StreamReader is null.");
+                _logger.LogInformation("StreamReader is null.");
                 throw new ArgumentNullException(nameof(reader));
             }
 
@@ -36,7 +36,7 @@ namespace CodingChallenge.core.Services
 
                     if (columns.Length <= columnIndex)
                     {
-                        _logger.LogWarning("Line does not have enough columns: {Line}", line);
+                        _logger.LogInformation("Line does not have enough columns: {Line}", line);
                         continue;
                     }
 
@@ -46,13 +46,13 @@ namespace CodingChallenge.core.Services
                     }
                     else
                     {
-                        _logger.LogWarning("Could not parse value to double: {Value}", columns[columnIndex]);
+                        _logger.LogInformation("Could not parse value to double: {Value}", columns[columnIndex]);
                     }
                 }
 
                 if (values.Count == 0)
                 {
-                    _logger.LogWarning("No valid values found in the specified column index.");
+                    _logger.LogInformation("No valid values found in the specified column index.");
                     throw new InvalidOperationException("No valid values found in the specified column index.");
                 }
 
@@ -65,7 +65,7 @@ namespace CodingChallenge.core.Services
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error aggregating CSV data for file '{FileName}'.", filename);
+                _logger.LogInformation(ex, "Error aggregating CSV data for file '{FileName}'.", filename);
                 throw new Exception($"Error aggregating CSV data for file '{filename}': {ex.Message}", ex);
             }
         }
@@ -74,7 +74,7 @@ namespace CodingChallenge.core.Services
         {
             if (reader == null)
             {
-                _logger.LogError("StreamReader is null.");
+                _logger.LogInformation("StreamReader is null.");
                 throw new ArgumentNullException(nameof(reader));
             }
 
@@ -88,7 +88,7 @@ namespace CodingChallenge.core.Services
 
                 if (jsonData == null)
                 {
-                    _logger.LogWarning("Deserialized JSON data is null for file '{FileName}'.", filename);
+                    _logger.LogInformation("Deserialized JSON data is null for file '{FileName}'.", filename);
                     throw new Exception("Deserialized JSON data is null.");
                 }
 
@@ -112,12 +112,12 @@ namespace CodingChallenge.core.Services
             }
             catch (JsonException jsonEx)
             {
-                _logger.LogError(jsonEx, "Error parsing JSON data for file '{FileName}'.", filename);
+                _logger.LogInformation(jsonEx, "Error parsing JSON data for file '{FileName}'.", filename);
                 throw new Exception($"Error parsing JSON data for file '{filename}': {jsonEx.Message}", jsonEx);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error transforming JSON data for file '{FileName}'.", filename);
+                _logger.LogInformation(ex, "Error transforming JSON data for file '{FileName}'.", filename);
                 throw new Exception($"Error transforming JSON data for file '{filename}': {ex.Message}", ex);
             }
         }

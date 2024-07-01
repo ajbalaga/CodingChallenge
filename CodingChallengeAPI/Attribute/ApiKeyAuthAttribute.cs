@@ -16,14 +16,14 @@ namespace CodingChallengeAPI.Attribute
 
             if (!context.HttpContext.Request.Headers.TryGetValue(ApiKeyHeaderName, out var potentialApiKey))
             {
-                logger.LogWarning("API key was not provided.");
+                logger.LogInformation("API key was not provided.");
                 context.Result = new UnauthorizedResult();
                 return;
             }
 
             if (!apiKeyService.ValidateApiKey(potentialApiKey))
             {
-                logger.LogWarning("Invalid API key provided.");
+                logger.LogInformation("Invalid API key provided.");
                 context.Result = new UnauthorizedResult();
                 return;
             }
